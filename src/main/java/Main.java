@@ -1,6 +1,6 @@
-public class Main {
-
+class Main {
     public static void main(String[] args) {
-        // ваш код начнется здесь
+        InvoiceCalculator invoiceCalculator = new InvoiceCalculator();
+        invoiceCalculator.start();
     }
 }
